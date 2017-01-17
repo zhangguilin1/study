@@ -218,9 +218,134 @@ header{
 .three .l .l_down .indent{
     text-indent: 2em;
 }
-.three .r {
+ .r {
     float: right;
-
     width:457px;
-    border:1px solid red;
+
+}
+.r .r_up{
+    position: relative;
+    margin-top: 10px;
+}
+.r .r_up img{
+    width: 458px;
+    height: 300px;
+}
+
+.r .r_up div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 458px;
+    height: 61px;
+    background-color:rgba(0,0,0,0.2);
+
+}
+.r .r_up .span_l{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 9px;;
+    height: 44px;
+    font-size: 26px;
+    color: #fff;
+    border-left: 3px solid #72b16a;
+    padding-left: 10px;
+
+}
+.r .r_up .span_r{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    color:black ;
+    font-size: 12px;
+    font-style: italic;
+
+}
+.r .r_down{
+    width:459px;
+    height: 318px;
+    margin-top:45px;
+    background-color: #eeedd6;
+}
+.r .r_down .r_down_p{
+    font: 16px/41px "宋体";
+    color: #5a5b5b;
+    padding: 16px 20px 20px 30px;
+    overflow: hidden;
+    white-space: wrap;
+}
+.r .r_down .r_down_p .italit{
+    font:italic 12px "Microsoft YaHei";
+}
+.r .r_down .r_down_p i{
+    width: 0;
+    height: 0;
+    border-left:5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #10456b;
+    display: inline-block;
+}
+.r .r_down .r_down_l{
+    width:260px;
+    height:155px;
+    background: #ea2d70;
+    float: left;
+
+}
+.r .r_down .r_down_l>span{
+    font-size:110px;
+    color:#ffffff;
+    float: left;
+    padding:0 10px;
+
+}
+.r .r_down .r_down_l .line{
+    border-left:2px solid #ffffff;
+    height:86px;
+    float: left;
+    margin-top: 35px;
+}
+.r_down_l .line .mark_one{
+    font: italic 21px/24px "黑体";
+    color: #fff;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+.r_down_l .line .mark_two{
+    font: 12px/10px "黑体";
+    color: #fff;
+    margin-left:10px;
+}
+.r_down_r {
+    float: right;
+    width: 180px;
+    height: 130px;
+    margin-top: 10px;
+}
+.r_down_r p span{
+    font: 72px "黑体";
+    color: #d45d5c;
+}
+.r_down_r p span .mark_one{
+    float: left;
+    margin: -18px 10px 0 -40px;
+    height: 30px;
+}
+.r_down_r p span .mark_two{
+    float:right;
+}
+.r_down_r p{
+    font:italic 14px/16px "SimHei";
+    color:#5a5b5b;
+}
+footer{
+    clear:both;
+    width: 892px;
+    height: 59px;
+    border-top: 1px solid #938e8c;
+}
+footer p{
+    float: right; font: 12px "黑体"; color: #d45d5c;
 }
